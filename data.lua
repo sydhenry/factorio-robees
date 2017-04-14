@@ -30,7 +30,7 @@ data.raw["logistic-robot"]["logistic-robot"].in_motion = {
 	y = 42
 }
 data.raw["logistic-robot"]["logistic-robot"].in_motion_with_cargo = {
-	filename = "__base__/graphics/entity/logistic-robot/logistic-robot.png",
+	filename = "__Robees__/graphics/bee.png",
 	priority = "high",
 	line_length = 16,
 	width = 41,
