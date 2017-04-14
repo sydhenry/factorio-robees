@@ -1,0 +1,12 @@
+{
+  "name": "Robees",
+  "version": "0.1.0",
+  "factorio_version": "0.14",
+  "title": "Factorio Robees",
+  "author": "",
+  "contact": "https://github.com/sydhenry/factorio-robees/issues",
+  "homepage": "https://github.com/sydhenry/factorio-robees/",
+  "description": "Turns the robots into bees!!!",
+  "dependencies": ["base >= 0.14.0"],
+  "license": "MIT"
+}
