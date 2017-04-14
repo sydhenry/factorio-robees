@@ -1,6 +1,3 @@
-defines = defines or {}
-local BEES = require("config")
-require("stdlib/color/defines")
 require("stdlib/utils/protohelpers")
 
 if BEES.DEBUG then
