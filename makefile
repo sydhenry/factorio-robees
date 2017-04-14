@@ -8,7 +8,7 @@ BUILD_DIR := build
 TMP_DIR := .tmp
 OUTPUT_DIR := $(BUILD_DIR)/$(OUTPUT_NAME)
 
-PKG_COPY := $(wildcard *.md) $(wildcard .*.md) $(wildcard graphics) $(wildcard locale) $(wildcard sounds)
+PKG_COPY := $(wildcard *.md) $(wildcard .*.md) $(wildcard graphics) $(wildcard locale) $(wildcard sounds) $(wildcard *.lua) $(wildcard info.json)
 
 SED_FILES := $(shell find . -iname '*.json' -type f -not -path "./.*/*") $(shell find . -iname '*.lua' -type f -not -path "./.*/*")
 PNG_FILES := $(shell find ./graphics -iname '*.png' -type f)
@@ -53,7 +53,7 @@ nodebug:
 check:
 	luacheck2.bat config.lua
 
-package: package-copy $(OUT_FILES) nodebug
+package: package-copy $(OUT_FILES)
 	cd $(BUILD_DIR) && zip -rq $(OUTPUT_NAME).zip $(OUTPUT_NAME)
 
 clean:
