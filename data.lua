@@ -162,3 +162,12 @@ data.raw["roboport"]["roboport"].recharging_animation = {
 	scale = 1.5,
 	animation_speed = 0.5
 }
+data.raw["roboport-equipment"]["personal-roboport-equipment"].recharging_animation = {
+	filename = "__Robees__/graphics/yellow_recharging.png",
+	priority = "high",
+	width = 37,
+	height = 35,
+	frame_count = 16,
+	scale = 1.5,
+	animation_speed = 0.5
+}
