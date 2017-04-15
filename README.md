@@ -21,6 +21,7 @@ make package
 -   ImageMagick
 -   Blender
 -   lua
+-   Spritify, included or through the add-ons in blender
 ```
 sudo apt-get install jq
 ```
@@ -33,8 +34,15 @@ sudo apt-get install jq
 -   Bee sprite
 -   Bee sound
 
-## Many thanks to
--   Nexela for the `makefile`
--   The public domain for
-    -   `sounds/bee.blend`
+## Credit/Licenses
+-   [ShadowyXPGames](github.com/ShadowyXPGames)
+-   [Nexela, MIT, with additions](github.com/Nexela)
+    -   `makefile`
+-   Public Domain, with edits
+    -   `graphics/bee.blend`
     -   `sounds/bee.ogg`
+-   [Misfit410, CC-BY, with additions)](http://www.blendswap.com/blends/view/78501)
+    -   `graphics/wasp.blend`
+-   [Jason van Gumster (Fweeb) ](https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Render/Spritify)
+    -   `scripts/spritify`
+-   Factorio, for being chill to mod with
