@@ -71,14 +71,22 @@ data.raw["consruction-robot"]["construction-robot"].in_motion = {
 	y = 36
 }
 data.raw["consruction-robot"]["construction-robot"].working =
-    {
-      filename = "__Robees__/graphics/wasp_working.png",
-      priority = "high",
-      line_length = 2,
-      width = 28,
-      height = 36,
-      frame_count = 2,
-      shift = {0, -0.15625},
-      direction_count = 16,
-      animation_speed = 0.3,
-    }
+{
+	filename = "__Robees__/graphics/wasp_working.png",
+	priority = "high",
+	line_length = 2,
+	width = 28,
+	height = 36,
+	frame_count = 2,
+	shift = {0, -0.15625},
+	direction_count = 16,
+	animation_speed = 0.3,
+}
+data.raw["consruction-robot"]["construction-robot"].working_sound = {
+    sound = {
+        { filename = "__Robees__/sounds/bee.ogg", volume = 0.8 }
+    },
+    max_sounds_per_type = 3,
+    audible_distance_modifier = 0.5,
+    probability = 1 / (1 * 60) -- average pause between the sound is 1 seconds
+}
