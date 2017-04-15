@@ -1,5 +1,5 @@
-## From github.com/Nexela/Nanobots
-## with edits by sydhenry
+## Copyright © `2017` `Nicholas "Nexela" Dunn` MIT
+## with additions by github.com/sydhenry
 
 PACKAGE_NAME := $(shell cat info.json|jq -r .name)
 VERSION_STRING := $(shell cat info.json|jq -r .version)

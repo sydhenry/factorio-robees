@@ -10,16 +10,19 @@
 
 ## Dev
 
-### Build
+### Build **wip**
 ```
-make build
+make clean
+make blender
+make package
 ```
 
 ### Deps
 -   ImageMagick
 -   Blender
+-   lua
 ```
-sudo apt-get install kq
+sudo apt-get install jq
 ```
 
 
@@ -27,7 +30,11 @@ sudo apt-get install kq
 -   Found a bug? Report it here: https://github.com/sydhenry/factorio-robees/issues
 
 ## Latest changes
--   Init
+-   Bee sprite
+-   Bee sound
 
 ## Many thanks to
--   Nexela for the makefile and README.md
+-   Nexela for the `makefile`
+-   The public domain for
+    -   `sounds/bee.blend`
+    -   `sounds/bee.ogg`
