@@ -49,7 +49,7 @@ data.raw["logistic-robot"]["logistic-robot"].working_sound = {
     probability = 1 / (1 * 60) -- average pause between the sound is 1 seconds
 }
 
-data.raw["consruction-robot"]["construction-robot"].idle = {
+data.raw["construction-robot"]["construction-robot"].idle = {
 	filename = "__Robees__/graphics/wasp.png",
 	priority = "high",
 	line_length = 16,
@@ -59,7 +59,7 @@ data.raw["consruction-robot"]["construction-robot"].idle = {
 	shift = {0, -0.15625},
 	direction_count = 16
 }
-data.raw["consruction-robot"]["construction-robot"].in_motion = {
+data.raw["construction-robot"]["construction-robot"].in_motion = {
 	filename = "__Robees__/graphics/wasp.png",
 	priority = "high",
 	line_length = 16,
@@ -70,7 +70,7 @@ data.raw["consruction-robot"]["construction-robot"].in_motion = {
 	direction_count = 16,
 	y = 36
 }
-data.raw["consruction-robot"]["construction-robot"].working =
+data.raw["construction-robot"]["construction-robot"].working =
 {
 	filename = "__Robees__/graphics/wasp_working.png",
 	priority = "high",
@@ -82,7 +82,7 @@ data.raw["consruction-robot"]["construction-robot"].working =
 	direction_count = 16,
 	animation_speed = 0.3,
 }
-data.raw["consruction-robot"]["construction-robot"].working_sound = {
+data.raw["construction-robot"]["construction-robot"].working_sound = {
     sound = {
         { filename = "__Robees__/sounds/bee.ogg", volume = 0.8 }
     },
@@ -90,7 +90,7 @@ data.raw["consruction-robot"]["construction-robot"].working_sound = {
     audible_distance_modifier = 0.5,
     probability = 1 / (1 * 60) -- average pause between the sound is 1 seconds
 }
-data.raw["consruction-robot"]["construction-robot"].sparks =
+data.raw["construction-robot"]["construction-robot"].sparks =
 {
 	{
 		filename = "__Robees__/graphics/pollin_01.png",
