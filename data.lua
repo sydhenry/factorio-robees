@@ -153,3 +153,12 @@ data.raw["construction-robot"]["construction-robot"].sparks =
 		animation_speed = 0.3,
 	},
 }
+data.raw["construction-robot"]["construction-robot"].recharging_animation = {
+	filename = "__Robees__/graphics/yellow_recharging.png",
+	priority = "high",
+	width = 37,
+	height = 35,
+	frame_count = 16,
+	scale = 1.5,
+	animation_speed = 0.5
+}
